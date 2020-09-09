@@ -1,0 +1,17 @@
+{
+  "server":{
+    "port": 5000
+  },
+  "db":{
+    "dialect": "postgres",
+    "port":5432,
+    "host":"localhost",
+    "database":"contentpi",
+    "username":"cms",
+    "password":"powermetal.4"
+  },
+  "security":{
+    "secretKey":"Ch4paL4P45haL4",
+    "expire":"7d"
+  }
+}
